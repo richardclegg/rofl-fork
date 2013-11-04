@@ -1169,6 +1169,7 @@ ciosrv::run()
 	 * the infinite loop ...
 	 */
 
+	keep_on = true;
 	while (keep_on)
 	{
 		fd_set readfds;
